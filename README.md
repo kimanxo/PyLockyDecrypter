@@ -39,7 +39,7 @@ This tool provides functionalities to encrypt and decrypt files securely using F
 To encrypt a single file, use the following command:
 
 ```bash
-python PyLockyDecrypter.py encrypt --file <file_name> --output <output_file>
+python main.py encrypt --file <file_name> --output <output_file>
  ```
 
 ### Decrypting a File
@@ -47,7 +47,7 @@ python PyLockyDecrypter.py encrypt --file <file_name> --output <output_file>
 To Decrypt a single file, use the following command:
 
 ```bash
-python PyLockyDecrypter.py decrypt --file <file_name>  --key <decryption_key>  --output <output_file>
+python main.py decrypt --file <file_name>  --key <decryption_key>  --output <output_file>
 ```
 
 ### Encrypting Files Recursively
@@ -55,7 +55,7 @@ python PyLockyDecrypter.py decrypt --file <file_name>  --key <decryption_key>  -
 To encrypt all files within a directory recursively, use the following command:
 
 ```bash
-python PyLockyDecrypter.py encrypt_recursive <directory>
+python main.py encrypt_recursive <directory>
 ```
 
 
@@ -65,7 +65,7 @@ python PyLockyDecrypter.py encrypt_recursive <directory>
 To Decrypt all files within a directory recursively, use the following command:
 
 ```bash
-python PyLockyDecrypter.py decrypt_recursive <directory> --key <decryption_key>
+python main.py decrypt_recursive <directory> --key <decryption_key>
 ```
 
 ## Note
